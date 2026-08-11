@@ -3,7 +3,7 @@ name: CI
 on: 
   push:
     branches:
-      - master
+      - main
   pull_request:
 
 jobs:
@@ -49,4 +49,3 @@ jobs:
       - name: run unit test
         run: |
           python -m unittest discover
-
