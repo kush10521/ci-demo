@@ -16,4 +16,3 @@ if __name__ == "__main__":
     result3 = mul(4, 5)
 
     print(result1, result2, result3)
-    
